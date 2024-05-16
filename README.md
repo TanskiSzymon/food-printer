@@ -17,7 +17,9 @@ Some other results:
 # Frame:
 
 <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/53b04ba7-c530-4837-9f94-3c9e2b3bf5a4" alt="Frame">
-Z - axis
+
+# Z - axis:
+
 <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/b6d51870-8004-4fe4-9d97-645b33aa5bb3" alt="Rama">
 
 1 – linear bearings2 – T8 trapezoidal screw3 – linear guides4 – NEMA17 stepper motor5 – idler gear6 – belt tensioner7 – backlash compensating nut8 – T8 trapezoidal screw bearings9 – drive gear for trapezoidal screw
@@ -25,7 +27,8 @@ Z - axis
 
 <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/1e7b91d3-7b19-44f4-8c17-9cb10ef36d36" alt="electrical diagram">
 
-Peristaltic pump:
+# Peristaltic pump:
+
 A peristaltic pump for dough dosing, version A with compensation, version B without compensation.
   <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/34ca0a6e-8bc7-479d-98d3-dbc0124987f2" alt="pump">
   <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/45d1698a-4a03-4c6b-9ab7-3a8c82f8efa0" alt="results">
