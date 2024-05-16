@@ -21,11 +21,12 @@ Z - axis
 
 1 – linear bearings2 – T8 trapezoidal screw3 – linear guides4 – NEMA17 stepper motor5 – idler gear6 – belt tensioner7 – backlash compensating nut8 – T8 trapezoidal screw bearings9 – drive gear for trapezoidal screw
 
-Electrical diagram:
-<img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/f3083b8e-2fd4-4992-8551-79de89f8d716" alt="electrical diagram">
+
+<img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/1e7b91d3-7b19-44f4-8c17-9cb10ef36d36" alt="electrical diagram">
+
+Peristaltic pump:
 A peristaltic pump for dough dosing, version A with compensation, version B without compensation.
-<img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/e970bdc5-97f9-43c6-9857-326522a60409" alt="Rama">
-  <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/34ca0a6e-8bc7-479d-98d3-dbc0124987f2" alt="Rama">
-  <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/45d1698a-4a03-4c6b-9ab7-3a8c82f8efa0" alt="Kompensacja">
+  <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/34ca0a6e-8bc7-479d-98d3-dbc0124987f2" alt="pump">
+  <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/45d1698a-4a03-4c6b-9ab7-3a8c82f8efa0" alt="results">
 
 </p>
