@@ -12,15 +12,18 @@ Watch the video below to see first prototype in action:
 </p>
 Some other results:
 
-<img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/4e15ef6e-4f9b-4f73-b7b9-d48136e2e8c4" alt="Rama">
-<img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/53b04ba7-c530-4837-9f94-3c9e2b3bf5a4" alt="Rama">
+<img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/4e15ef6e-4f9b-4f73-b7b9-d48136e2e8c4" alt="Results">
+
+Frame:
+<img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/53b04ba7-c530-4837-9f94-3c9e2b3bf5a4" alt="Frame">
+Z - axis
 <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/b6d51870-8004-4fe4-9d97-645b33aa5bb3" alt="Rama">
 
 1 – linear bearings2 – T8 trapezoidal screw3 – linear guides4 – NEMA17 stepper motor5 – idler gear6 – belt tensioner7 – backlash compensating nut8 – T8 trapezoidal screw bearings9 – drive gear for trapezoidal screw
 
-
-<img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/f3083b8e-2fd4-4992-8551-79de89f8d716" alt="Rama">
-<img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/37a59bfd-6c66-4869-a223-a22b3a100b4c" alt="Rama">
+Electrical diagram:
+<img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/f3083b8e-2fd4-4992-8551-79de89f8d716" alt="electrical diagram">
+A peristaltic pump for dough dosing, version A with compensation, version B without compensation.
 <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/e970bdc5-97f9-43c6-9857-326522a60409" alt="Rama">
   <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/34ca0a6e-8bc7-479d-98d3-dbc0124987f2" alt="Rama">
   <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/45d1698a-4a03-4c6b-9ab7-3a8c82f8efa0" alt="Kompensacja">
