@@ -16,7 +16,7 @@ Some other results:
 <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/53b04ba7-c530-4837-9f94-3c9e2b3bf5a4" alt="Rama">
 <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/b6d51870-8004-4fe4-9d97-645b33aa5bb3" alt="Rama">
 
-1 – łożyska liniowe, 2 – śrubę trapezową T8, 3 – prowadnice liniowe, 4 – silnik krokowy NEMA17, 5 – koło zębate swobodne, 6 – naciąg paska, 7 – nakrętkę kasująca luz, 8 – łożyska śruby trapezowej T8, 9 – koło napędowe śruby trapezowej
+1 – linear bearings2 – T8 trapezoidal screw3 – linear guides4 – NEMA17 stepper motor5 – idler gear6 – belt tensioner7 – backlash compensating nut8 – T8 trapezoidal screw bearings9 – drive gear for trapezoidal screw
 
 
 <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/f3083b8e-2fd4-4992-8551-79de89f8d716" alt="Rama">
