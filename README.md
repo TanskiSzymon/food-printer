@@ -32,7 +32,7 @@ Some other results:
 # Peristaltic pump:
 
 A peristaltic pump for dough dosing, version A with compensation, version B without compensation.
-  <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/34ca0a6e-8bc7-479d-98d3-dbc0124987f2" alt="pump">
+  <img src="https://github.com/user-attachments/assets/916cfd86-ea9d-4392-8d3f-8bc1339961f8" alt="pump">
   <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/45d1698a-4a03-4c6b-9ab7-3a8c82f8efa0" alt="results">
 
 </p>
