@@ -29,6 +29,11 @@ Some other results:
 
 <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/1e7b91d3-7b19-44f4-8c17-9cb10ef36d36" alt="electrical diagram">
 
+
+# Pugh matrix:
+<img width="960" height="493" alt="image" src="https://github.com/user-attachments/assets/d775a7c8-f14b-45ff-b565-d0e77c229218" />
+
+
 # Peristaltic pump:
 
 A peristaltic pump for dough dosing, version A with compensation, version B without compensation.
