@@ -5,6 +5,8 @@ Założenia: używamy cen jednostkowych z tabeli „Cena za 100g/100ml/1 szt” 
 
 ---
 
+
+
 ## 1) Składniki przepisu (ilości i koszty)
 
 | Składnik | Ilość | Cena za 100g / 100ml / 1 szt | Koszt (PLN) |
@@ -55,9 +57,3 @@ Dane: cena za 1 kWh = **0,75 zł**, moc urządzenia ≈ **2,35 kW**, czas wydruk
 - Koszt całkowity na porcję (surowce + energia): **0,42 zł**
 
 ---
-
-## 6) Pliki źródłowe / Referencje
-- Przepis i ceny: `tests/cost_model.csv` (zalecane do umieszczenia w repo).
-- Arkusz energii: `docs/energy.md` (zalecane).
-- Zdjęcia referencyjne: `marketing/images/Phase_1_reesults.png` (przykład porcji).
-"""
