@@ -56,7 +56,8 @@ Zakres prac konstruowany jest modułowo, by umożliwić równoległe prowadzenie
 
 ## 4. Rezultaty Fazy 1 (MVP)
 
-![Wyniki fazy 1](images/Phase_1_results.png)
+![Pierwszt MVP](images/Render_front.png)
+
 
 **Mechanika:** rama z profili aluminiowych 30×30; kinematyka **CoreXY** na paskach **GT2**; oś Z: **NEMA17 + śruba trapezowa T8** (nakrętka kompensująca luz).  
 **Napędy i sterowanie:** silniki **NEMA17** ze sterownikami **TMC2209** (wykorzystanie informacji zwrotnej z driverów – podejście hybrydowe), płyta główna **BTT Octopus**, autorski firmware oraz **GUI** dotykowe.  
@@ -66,6 +67,8 @@ Zakres prac konstruowany jest modułowo, by umożliwić równoległe prowadzenie
 **Pipeline druku:** grafika (PNG/SVG) → separacja kolorów → mapowanie kanałów → **G-code** → druk.  
 **Ekonomia jednostkowa (z prób):** składniki ok. **7,20 zł / 1,5 kg** ciasta; energia ok. **0,09 zł** na wydruk; **~0,34 zł / naleśnik** (założenia w arkuszu kosztów).  
 **Materiały referencyjne:** demo wideo działania MVP, rendery, zdjęcia próbek druku, wyniki porównania pulsacji (A vs B), macierz Pugh.
+
+![Wyniki fazy 1](images/Phase_1_results.png)
 
 ---
 
