@@ -13,8 +13,8 @@ Projekt dotyczy opracowania domowego systemu druku żywności, łączącego auto
 
 Projekt realizowany jest w czterech etapach. Każdy etap ma wyraźne cele i kryteria przejścia do kolejnej fazy.
 
-- **Etap 1 — PoC (Proof of Concept)** — *zakończony* (2023-10-02 → 2023-12-11). Cel wykonany: techniczna wykonalność druku naleśników w różnych kolorach i kształtach oraz wstępna weryfikacja sensu ekonomicznego rozwiązania.
-- **Etap 2 — MVP (Minimum Viable Product)** — *w toku* (rozpoczęcie: 2025-09-01). Cel: doprowadzenie urządzenia do stanu reprezentatywnego dla użytkownika końcowego — stabilne dozowanie, poprawiona powtarzalność, użyteczny interfejs operatora, podstawowe procedury higieniczne (CIP) i dokumentacja montażowa/serwisowa.
+- **Etap 1 — PoC (Proof of Concept)** — *zakończony* (2023-10-02 → 2024-09-11). Cel wykonany: techniczna wykonalność druku naleśników w różnych kolorach i kształtach oraz wstępna weryfikacja sensu ekonomicznego rozwiązania.
+- **Etap 2 — MVP (Minimum Viable Product)** — *w toku* (rozpoczęcie: 2025-07-01). Cel: doprowadzenie urządzenia do stanu reprezentatywnego dla użytkownika końcowego — stabilne dozowanie, poprawiona powtarzalność, użyteczny interfejs operatora, podstawowe procedury higieniczne (CIP) i dokumentacja montażowa/serwisowa.
 - **Etap 3 — Iteracje rynkowe, badania użytkowników i uczenie** — *planowany*. Cel: zbieranie feedbacku z testów użytkowników i pilotaży, iteracyjne poprawki sprzętowe i software’owe, optymalizacja menu startowego, walidacja założeń biznesowych i metryk KPI (NPS, waste, repeatability). Etap koncentruje się na szybkim cyklu „test → learn → adjust”.
 - **Etap 4 — Zgodność, certyfikacja i pilotaże komercyjne** — *planowany*. Cel: przygotowanie i przeprowadzenie działań zgodnościowych (HACCP, wymagania CE/LVD/EMC tam, gdzie stosowne), finalne audyty, oraz wdrożenie pilotaży w środowiskach docelowych (szkoły, eventy, partnerzy HoReCa).
 
