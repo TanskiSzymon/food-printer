@@ -11,25 +11,48 @@ Projekt dotyczy opracowania domowego systemu druku żywności, łączącego auto
 ---
 
 ## 2. Fazy i status
-- **Faza 1 – Pancake Printer (PoC/MVP)** — *zakończona.* Potwierdzono wykonalność techniczną i sens ekonomiczny druku naleśników w wielu kolorach i kształtach.
-- **Faza 2 – Pre-produkt** — *w toku.* Cel: zwiększenie powtarzalności, pieczenie kolejnych warstw, modernizacja wkładów i dozowania (CIP), konsultacje z użytkownikami i dobór menu startowego.
-- **Faza 3 – Certyfikacja i pilotaże** — *planowana.* Pakiet HACCP/CE oraz pilotaże w wybranych lokalizacjach (szkoły, eventy, HoReCa).
-- **Wizja długoterminowa – „FoodOS”** — platforma do wielu potraw, subskrypcyjny model wkładów oraz komponenty AI wspierające dobór diety, harmonogram i zakupy.
+
+Projekt realizowany jest w czterech etapach. Każdy etap ma wyraźne cele i kryteria przejścia do kolejnej fazy.
+
+- **Etap 1 — PoC (Proof of Concept)** — *zakończony* (2023-10-02 → 2023-12-11). Cel wykonany: techniczna wykonalność druku naleśników w różnych kolorach i kształtach oraz wstępna weryfikacja sensu ekonomicznego rozwiązania.
+- **Etap 2 — MVP (Minimum Viable Product)** — *w toku* (rozpoczęcie: 2025-09-01). Cel: doprowadzenie urządzenia do stanu reprezentatywnego dla użytkownika końcowego — stabilne dozowanie, poprawiona powtarzalność, użyteczny interfejs operatora, podstawowe procedury higieniczne (CIP) i dokumentacja montażowa/serwisowa.
+- **Etap 3 — Iteracje rynkowe, badania użytkowników i uczenie** — *planowany*. Cel: zbieranie feedbacku z testów użytkowników i pilotaży, iteracyjne poprawki sprzętowe i software’owe, optymalizacja menu startowego, walidacja założeń biznesowych i metryk KPI (NPS, waste, repeatability). Etap koncentruje się na szybkim cyklu „test → learn → adjust”.
+- **Etap 4 — Zgodność, certyfikacja i pilotaże komercyjne** — *planowany*. Cel: przygotowanie i przeprowadzenie działań zgodnościowych (HACCP, wymagania CE/LVD/EMC tam, gdzie stosowne), finalne audyty, oraz wdrożenie pilotaży w środowiskach docelowych (szkoły, eventy, partnerzy HoReCa).
+
+Każdy etap zamykany jest oceną kryteriów wejścia/wyjścia (exit criteria) oraz krótkim raportem technicznym i biznesowym, niezbędnym do decyzji o kontynuacji prac i ewentualnym pozyskaniu finansowania na dalsze prace.
+
+---
 ```mermaid
 gantt
-  title Fazy i status — skrót
+  title Fazy i status — skrót (4 etapy)
   dateFormat YYYY-MM-DD
   section Etapy
-  Etap 1 — Zakończony        :done,    2023-10-02, 2023-12-11
-  Etap 2 — W toku            :active,  2025-09-01, 60d
-  Etap 3 — Planowany         :         2025-11-15, 60d
+  Etap 1 — PoC (zakończony)                    :done,    poc1, 2023-10-02, 2023-12-11
+  Etap 2 — MVP (w toku)                        :active,  mvp2, 2025-09-01, 60d
+  Etap 3 — Iteracje, rynek, feedback, uczenie  :         it3,  2025-11-01, 75d
+  Etap 4 — Certyfikacja i pilotaże             :         cer4, 2026-01-15, 60d
 ```
 ---
 
 ## 3. Zakres rzeczowy (skrót)
-**W zakresie (Fazy 1–3):** mechanika (CoreXY), dozowanie (pompa perystaltyczna z kompensacją), sterowanie/GUI, generator ścieżek (PNG/SVG → G-code), proces termiczny, higiena/CIP, przygotowanie zgodności (HACCP/CE), badania użytkowników i pilotaże.  
-**Poza zakresem na obecnym etapie:** zaawansowana diagnostyka medyczna oraz pełna industrializacja produkcji wkładów.
 
+**W zakresie realizacji (Faza 1–4):**
+- Mechanika nośna i kinematyka (CoreXY, prowadnice liniowe, konstrukcja modułowa).
+- System dozowania (pompa perystaltyczna z kompensacją pulsacji; architektura kanałów dozujących).
+- Układ sterowania i elektronika (BTT Octopus / TMC2209; E-stop; zabezpieczenia).
+- Firmware i oprogramowanie użytkownika (GUI operatora, pipeline: PNG/SVG → G-code, profile pieczenia).
+- Procedury higieniczne i operacyjne (design-for-cleaning, instrukcje CIP/SOP).
+- Testy i walidacja (powtarzalność dozowania, pomiary energetyczne, badania sensoryczne).
+- Przygotowanie do zgodności i certyfikacji (dokumentacja HACCP draft, ścieżka CE, wymagania materiałowe).
+- Materiały komunikacyjne i przygotowanie pilotaży (renderingi, wideo demo, ankiety, raporty pilotażowe).
+- Pakiet grantowy (narracja, logframe, workplan, budżet wysokiego poziomu, rejestr ryzyk).
+
+**Poza zakresem obecnych etapów (nie obejmowane w krótkim terminie):**
+- Pełna, przemysłowa produkcja wkładów do żywności (skalowanie linii produkcyjnej).
+- Zaawansowana diagnostyka medyczna i formalne doradztwo dietetyczne wymagające certyfikowanych usług medycznych.
+- Integracja z zewnętrznymi systemami zdrowotnymi wymagającymi przekazywania danych medycznych bez odrębnych analiz prawnych i zgodności.
+
+Zakres prac konstruowany jest modułowo, by umożliwić równoległe prowadzenie prac rozwojowych (mechanika, elektronika, software) oraz przygotowań formalnych (compliance, dokumentacja) niezbędnych dla etapów 3–4.
 ---
 
 ## 4. Rezultaty Fazy 1 (MVP)
