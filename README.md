@@ -85,7 +85,7 @@ Watch the video below to see first prototype in action:
 - **Oprogramowanie:** firmware, GUI operatora, generator ścieżek; profile pieczenia i kalibracje.  
 - **Higiena/CIP:** projekt „design-for-cleaning”, szybki demontaż, materiały dopuszczone do kontaktu z żywnością.
 
-[Szczegóły Etapu 1](phases/Phase_1)
+[Szczegóły etapu 1](phases/Phase_1)
 
 ---
 
