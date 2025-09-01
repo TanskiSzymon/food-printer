@@ -5,6 +5,7 @@ Założenia: używamy cen jednostkowych z tabeli „Cena za 100g/100ml/1 szt” 
 
 ---
 Wybrany wzór:
+
 ![Santa](images/Santa.png)
 
 ## 1) Składniki przepisu (ilości i koszty)
