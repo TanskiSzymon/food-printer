@@ -15,7 +15,15 @@ Projekt dotyczy opracowania domowego systemu druku żywności, łączącego auto
 - **Faza 2 – Pre-produkt** — *w toku.* Cel: zwiększenie powtarzalności, pieczenie kolejnych warstw, modernizacja wkładów i dozowania (CIP), konsultacje z użytkownikami i dobór menu startowego.
 - **Faza 3 – Certyfikacja i pilotaże** — *planowana.* Pakiet HACCP/CE oraz pilotaże w wybranych lokalizacjach (szkoły, eventy, HoReCa).
 - **Wizja długoterminowa – „FoodOS”** — platforma do wielu potraw, subskrypcyjny model wkładów oraz komponenty AI wspierające dobór diety, harmonogram i zakupy.
-
+```mermaid
+gantt
+  title Fazy i status — skrót
+  dateFormat YYYY-MM-DD
+  section Etapy
+  Etap 1 — Zakończony        :done,    2023-10-02, 2023-12-11
+  Etap 2 — W toku            :active,  2025-09-01, 60d
+  Etap 3 — Planowany         :         2025-11-15, 60d
+```
 ---
 
 ## 3. Zakres rzeczowy (skrót)
