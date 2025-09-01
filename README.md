@@ -28,8 +28,8 @@ gantt
   section Etapy
   Etap 1 — PoC (zakończony)                    :done,    poc1, 2023-10-02, 2024-09-11
   Etap 2 — MVP (w toku)                        :active,  mvp2, 2025-06-01, 420d
-  Etap 3 — Iteracje, rynek, feedback, uczenie  :         it3,  2026-3-01, 75d
-  Etap 4 — Certyfikacja i pilotaże             :         cer4, 2026-01-15, 60d
+  Etap 3 — Iteracje, rynek, feedback, uczenie  :         it3,  2026-06-01, 75d
+  Etap 4 — Certyfikacja i pilotaże             :         cer4, 2026-05-15, 60d
 ```
 ---
 
