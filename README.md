@@ -144,15 +144,11 @@ mindmap
 
 ---
 
-## 9. Struktura repozytorium (skrót)
-- `hardware/` — CAD (STEP/STL), rysunki 2D, BOM, pompa perystaltyczna (A/B), rendery i zdjęcia.  
-- `electronics/` — KiCad (schemat/PCB/Gerbery), pinout, wiązki, zabezpieczenia.  
-- `firmware/`, `software/` — konfiguracja BTT Octopus/TMC2209, GUI, generator G-code (PNG/SVG → G-code).  
+## 9. Struktura repozytorium publicznego (skrót)
 - `tests/` — powtarzalność, energia, protokoły.  
 - `docs/` — Gantt/WBS (Mermaid), macierz Pugh, zgodność (HACCP draft, ścieżka CE, GDPR/DMP).  
-- `marketing/` — demo wideo, zdjęcia, rendery.  
-- `business/` — koszty jednostkowe, konkurencja, plan pilotaży.  
-- `grants/` — narracje, budżety, logframe, rejestr ryzyk i wskaźniki wpływu.
+- `images/` — zdjęcia, rendery.  
+- `phases/` — szczegółowe opisy poszczególnych faz
 
 ---
 
@@ -168,19 +164,5 @@ mindmap
 - **Etyka i GDPR/DMP** (zakres danych, zgody, retencja, bezpieczeństwo).
 
 > Rekomendacja: każdy wniosek utrzymywać w `grants/submissions/<program>/<rok>/` wraz z załącznikami: rendery, wideo demo, listy intencyjne, CV.
-
----
-
-## 11. Materiały referencyjne i media (do podlinkowania po dodaniu do repo)
-- **Demo wideo MVP:** `marketing/videos/demo_phase1.mp4`  
-- **Render frontu:** `marketing/images/front_render.png`  
-- **Macierz Pugh (grafika):** `docs/engineering/decision_matrices/pugh_dosing.png`  
-- **Zdjęcia próbek:** `marketing/photos/samples/…`  
-- **Arkusz kosztów:** `business/costs/model.csv`
-
----
-
-## 12. Informacja licencyjna
-Proponowane licencje: **kod – MIT/Apache-2.0**, **hardware – CERN-OHL-S**, **dokumentacja – CC BY-SA**. Alternatywnie wariant „open-core” (szczegóły do określenia w dokumentacji biznesowej).
 
 ---
