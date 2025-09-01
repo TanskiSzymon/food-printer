@@ -1,5 +1,5 @@
 # Food Printer — od MVP do platformy „FoodOS”
-
+![Pierwszt MVP](images/Render_front.png)
 ---
 
 ## 1. Cel projektu i kontekst
@@ -56,8 +56,13 @@ Zakres prac konstruowany jest modułowo, by umożliwić równoległe prowadzenie
 
 ## 4. Rezultaty Fazy 1 (MVP)
 
-![Pierwszt MVP](images/Render_front.png)
+Watch the video below to see first prototype in action:
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=P8IgyybBxyM">
+     <img src="https://img.youtube.com/vi/P8IgyybBxyM/0.jpg" alt="Watch the video.">
+  </a>
+</p>
 
 **Mechanika:** rama z profili aluminiowych 30×30; kinematyka **CoreXY** na paskach **GT2**; oś Z: **NEMA17 + śruba trapezowa T8** (nakrętka kompensująca luz).  
 **Napędy i sterowanie:** silniki **NEMA17** ze sterownikami **TMC2209** (wykorzystanie informacji zwrotnej z driverów – podejście hybrydowe), płyta główna **BTT Octopus**, autorski firmware oraz **GUI** dotykowe.  
