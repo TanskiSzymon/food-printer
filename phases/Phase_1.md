@@ -144,6 +144,5 @@ Przykładowe zdjęcia porównawcze wyników dozowania / ścieżek:
 
 ## 10. Kontakt / referencje
 Dalsze materiały i pełne pliki projektowe (CAD, schematy, firmware) dostępne na żądanie w repo prywatnym lub w dedykowanym archiwum roboczym.  
-Kontakt: patrz `CONTACT.md` w repo.
 
 ---
