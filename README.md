@@ -55,6 +55,8 @@ Zakres prac konstruowany jest modułowo, by umożliwić równoległe prowadzenie
 ---
 
 ## 4. Rezultaty Fazy 1 (MVP)
+
+- `images/Phase_1_reesults.png`:
 **Mechanika:** rama z profili aluminiowych 30×30; kinematyka **CoreXY** na paskach **GT2**; oś Z: **NEMA17 + śruba trapezowa T8** (nakrętka kompensująca luz).  
 **Napędy i sterowanie:** silniki **NEMA17** ze sterownikami **TMC2209** (wykorzystanie informacji zwrotnej z driverów – podejście hybrydowe), płyta główna **BTT Octopus**, autorski firmware oraz **GUI** dotykowe.  
 **Proces termiczny:** elektryczny grill z kontrolą temperatury (stabilizacja wypieku ścieżek).  
