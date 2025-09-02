@@ -5,11 +5,6 @@
 
 ---
 ![Pierwszt MVP](../images/Render_front.png)
-<p align="center">
-[Front_Render](../images/Render_front.png)
-  <img src="https://github.com/TanskiSzymon/MQTT_Controller/assets/108231030/006675c5-1bfa-453e-93d7-1b4fb1ffdb3d" alt="Front_Render" width="560"/>
-</p>
-
 **Demo wideo (Prototype 1):**
 
 <p align="center">
@@ -45,10 +40,8 @@ Celem fazy 1 było:
 - Separacja stref: układ napędowy i elektronika umieszczone w strefie „brudnej”, oddzielonej od strefy kontaktu z żywnością (łatwy demontaż i czyszczenie).
 
 ### 3.2 Oś Z i elementy napędu
-<p align="center">
-  ![Cart](../images/cart.png)
-  <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/b6d51870-8004-4fe4-9d97-645b33aa5bb3" alt="Z-axis" width="640"/>
-</p>
+
+![Cart](../images/cart.png)
 
 Elementy osi Z (opis na zdjęciu):
 1. prowadnice liniowe (linear bearings)  
@@ -68,11 +61,8 @@ Konstrukcja osi Z zapewnia stabilność i powtarzalność pozycji, co jest istot
 ## 4. Elektronika i sterowanie
 
 ### 4.1 Schemat ogólny
-<p align="center">
-  ![Electronic diagram](../images/simple_electric.png)
-  <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/1e7b91d3-7b19-44f4-8c17-9cb10ef36d36" alt="Electrical diagram" width="640"/>
-</p>
 
+![Electronic diagram](../images/simple_electric.png)
 Główne elementy:
 - Płyta główna: **BTT Octopus** (konfiguracja CoreXY, dużo wejść/wyjść).
 - Sterowniki silników: **TMC2209** (cicha praca; wykorzystano możliwość sprzężenia zwrotnego z driverów → hybrydowy tryb sterowania).
@@ -88,15 +78,15 @@ Główne elementy:
 ---
 
 ## 5. Peristaltic pump — opis i wyniki testów
-<p align="center">
-  ![Pumps](../images/pumps.jpg)
-  <img src="https://github.com/user-attachments/assets/916cfd86-ea9d-4392-8d3f-8bc1339961f8" alt="Peristaltic pump" width="560"/>
-</p>
-![Macierz pugh](images/pugh_matrix.png)
+
+![Pumps](../images/pumps.jpg)
 - Warianty testowane:
   - **A — pompa bez kompensacji** (prostsza konstrukcja).
   - **B — pompa z kompensacją pulsacji** (mechanizm kompensujący skokowe podania płynu),
 - Kryteria oceny: precyzja dawkowania, pulsacja (stabilność przepływu), łatwość czyszczenia, koszt wykonania, kompatybilność z materiałami food-grade.
+
+![Macierz pugh](../images/pugh_matrix.png)
+
 - Wynik: wariant **B** uzyskał najlepszy bilans punktów w macierzy decyzyjnej (Pugh) — lepsza powtarzalność i jakość ścieżek; wariant A prostszy i tańszy, ale gorszy dla gęstszych mieszanek.
 
 Przykładowe zdjęcia porównawcze wyników dozowania / ścieżek:  
