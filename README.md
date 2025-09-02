@@ -37,55 +37,13 @@ gantt
 
   section Kamienie milowe
   M1  — PoC zakończony (dowód koncepcji)                     :milestone, m1,  2024-09-11, 0d
-  M2.1— Konstrukcja zoptymalizowana (DFM/BOM)                :milestone, m21, 2025-09-30, 0d
-  M2.2— Systemy pieczenia zintegrowane (bottom + top)        :milestone, m22, 2026-01-15, 0d
-  M2.3— Pompa + elektronika bez pulsacji (RC)                :milestone, m23, 2026-02-15, 0d
-  M2.4— Integracja systemowa ukończona                       :milestone, m24, 2026-03-17, 0d
-  M2.5— MVP Release Candidate (gotowe do pilotażu)           :milestone, m25, 2026-04-18, 0d
+  M2 — MVP (beta ready — testy wewnętrzne)                   :milestone, m2,  2026-04-18, 0d
   M3  — Walidacja rynkowa / wyniki pilotaży                  :milestone, m3,  2026-09-01, 0d
   M4  — Złożenie dokumentacji certyfikacyjnej                :milestone, m4,  2026-10-20, 0d
   M5  — Start pilotaży komercyjnych                          :milestone, m5,  2026-11-15, 0d
   M6  — Go-to-market / pierwsze wdrożenia                    :milestone, m6,  2027-03-01, 0d
 ```
 
-
-
-
----
-
-## 2. Fazy i status
-
-Projekt realizowany jest w czterech etapach. Każdy etap ma wyraźne cele i kryteria przejścia do kolejnej fazy.
-
-- **Etap 1 — PoC (Proof of Concept)** — *zakończony* (2023-10-02 → 2024-09-11). Cel wykonany: techniczna wykonalność druku naleśników w różnych kolorach i kształtach oraz wstępna weryfikacja sensu ekonomicznego rozwiązania.
-- **Etap 2 — MVP (Minimum Viable Product)** — *w toku* (rozpoczęcie: 2025-07-01). Cel: doprowadzenie urządzenia do stanu reprezentatywnego dla użytkownika końcowego — stabilne dozowanie, poprawiona powtarzalność, użyteczny interfejs operatora, podstawowe procedury higieniczne (CIP) i dokumentacja montażowa/serwisowa.
-- **Etap 3 — Iteracje rynkowe, badania użytkowników i uczenie** — *planowany*. Cel: zbieranie feedbacku z testów użytkowników i pilotaży, iteracyjne poprawki sprzętowe i software’owe, optymalizacja menu startowego, walidacja założeń biznesowych i metryk KPI (NPS, waste, repeatability). Etap koncentruje się na szybkim cyklu „test → learn → adjust”.
-- **Etap 4 — Zgodność, certyfikacja i pilotaże komercyjne** — *planowany*. Cel: przygotowanie i przeprowadzenie działań zgodnościowych (HACCP, wymagania CE/LVD/EMC tam, gdzie stosowne), finalne audyty, oraz wdrożenie pilotaży w środowiskach docelowych (szkoły, eventy, partnerzy HoReCa).
-
-Każdy etap zamykany jest oceną kryteriów wejścia/wyjścia (exit criteria) oraz krótkim raportem technicznym i biznesowym, niezbędnym do decyzji o kontynuacji prac i ewentualnym pozyskaniu finansowania na dalsze prace.
-
----
-```mermaid
-gantt
-  title Food Printer — Roadmapa (etapy + kamienie milowe)
-  dateFormat  YYYY-MM-DD
-  excludes    weekends
-
-  section Etapy
-  Etap 1 — PoC (zakończony)                    :done,    poc1, 2023-10-02, 2024-09-11
-  Etap 2 — MVP (rozwoj / stabilizacja)         :active,  mvp2, 2025-07-01, 230d
-  Etap 3 — Iteracje rynkowe i uczenie          :         it3,  2026-03-01, 120d
-  Etap 4 — Certyfikacja i pilotaże             :         cer4, 2026-09-15, 120d
-
-  section Kamienie milowe
-  M1 — PoC zakończony (dowód koncepcji)        :milestone, m1, 2024-09-11, 0d
-  M2 — MVP (beta ready — testy wewnętrzne)     :milestone, m2, 2025-12-15, 0d
-  M3 — MVP Release Candidate (RC)              :milestone, m3, 2026-03-15, 0d
-  M4 — Walidacja rynkowa / wyniki pilotaży     :milestone, m4, 2026-07-01, 0d
-  M5 — Złożenie dokumentacji certyfikacyjnej   :milestone, m5, 2026-10-20, 0d
-  M6 — Start pilotaży komercyjnych             :milestone, m6, 2026-11-15, 0d
-  M7 — Go-to-market / pierwsze wdrożenia       :milestone, m7, 2027-03-01, 0d
-```
 ## 3. Zakres rzeczowy (skrót)
 
 **W zakresie realizacji (Faza 1–4):**
