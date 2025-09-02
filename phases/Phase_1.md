@@ -90,11 +90,7 @@ Główne elementy:
 - Wynik: wariant **B** uzyskał najlepszy bilans punktów w macierzy decyzyjnej (Pugh) — lepsza powtarzalność i jakość ścieżek; wariant A prostszy i tańszy, ale gorszy dla gęstszych mieszanek.
 
 Przykładowe zdjęcia porównawcze wyników dozowania / ścieżek:  
-<p align="center">
-  ![Pumps_result](../images/pumps_results.png)
-  <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/45d1698a-4a03-4c6b-9ab7-3a8c82f8efa0" alt="Pump results" width="560"/>
-</p>
-
+![Pumps_result](../images/pumps_results.png)
 ---
 
 ## 6. Firmware i oprogramowanie
