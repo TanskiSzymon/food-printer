@@ -4,7 +4,7 @@
 > Zawiera skrót rozwiązań mechanicznych, elektronicznych, sterowania i wyników testów demonstracyjnych.
 
 ---
-![Pierwszt MVP](images/Render_front.png)
+![Pierwszt MVP](../images/Render_front.png)
 <p align="center">
 [Front_Render](../images/Render_front.png)
   <img src="https://github.com/TanskiSzymon/MQTT_Controller/assets/108231030/006675c5-1bfa-453e-93d7-1b4fb1ffdb3d" alt="Front_Render" width="560"/>
