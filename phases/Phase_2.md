@@ -32,7 +32,7 @@ gantt
   2.10 Sterowanie klimatem komory (czujniki, PID, profile) :chamber_ctrl, after chamber, 30d
 
   section Zasobnik wkładów i wymiana
-  2.11 Projekt zasobnika wkładów i mechanizmu szybkiej wymiany :cartridge, 2025-08-01, 45d
+  2.11 Projekt zasobnika wkładów i mechanizmu szybkiej wymiany :cartridge, 2025-10-01, 45d
   2.12 Prototyp wymiany wkładów i test ergonomii serwisu :cartridge_test, after cartridge, 30d
 
   section Oprogramowanie i UX
@@ -44,7 +44,7 @@ gantt
   2.16 Walidacja powtarzalności, CIP i wydajności produkcyjnej :validation, after integration, 30d
 
   section Kamienie milowe
-  M1 — Konstrukcja zoptymalizowana (DFM done)              :milestone, m1, 2025-09-15, 0d
+  M1 — Konstrukcja zoptymalizowana (DFM done)              :milestone, m1, 2025-10-15, 0d
   M2 — Moduły pieczenia zintegrowane                        :milestone, m2, 2025-11-01, 0d
   M3 — Pompa i elektronika produkcyjna (RC)                 :milestone, m3, 2026-01-15, 0d
   M4 — MVP Release Candidate / gotowe do pilotażu          :milestone, m4, 2026-02-15, 0d
@@ -134,7 +134,7 @@ W etapie 2 realizujemy:
 - Rezultat: implementacja kontrolera klimatu, logi testów temperaturowych.
 
 **2.11 Projekt zasobnika wkładów i mechanizmu szybkiej wymiany**  
-- Okres: 2025-08-01, 45d.  
+- Okres: 2025-10-01, 45d.  
 - Zakres: ergonomia, kompatybilność materiałowa, zabezpieczenia przed przeciekami, blokady mechaniczne.  
 - Rezultat: CAD zasobnika, spec. materiałowa, makieta serwisowa.
 
