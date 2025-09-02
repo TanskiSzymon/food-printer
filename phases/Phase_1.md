@@ -6,6 +6,7 @@
 ---
 
 <p align="center">
+  ![Front_Render](../images/Render_front.png)
   <img src="https://github.com/TanskiSzymon/MQTT_Controller/assets/108231030/006675c5-1bfa-453e-93d7-1b4fb1ffdb3d" alt="Front_Render" width="560"/>
 </p>
 
@@ -45,6 +46,7 @@ Celem fazy 1 było:
 
 ### 3.2 Oś Z i elementy napędu
 <p align="center">
+  ![Cart](../images/cart.png)
   <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/b6d51870-8004-4fe4-9d97-645b33aa5bb3" alt="Z-axis" width="640"/>
 </p>
 
@@ -67,6 +69,7 @@ Konstrukcja osi Z zapewnia stabilność i powtarzalność pozycji, co jest istot
 
 ### 4.1 Schemat ogólny
 <p align="center">
+  ![Electronic diagram](../images/simple_electric.png)
   <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/1e7b91d3-7b19-44f4-8c17-9cb10ef36d36" alt="Electrical diagram" width="640"/>
 </p>
 
@@ -86,17 +89,19 @@ Główne elementy:
 
 ## 5. Peristaltic pump — opis i wyniki testów
 <p align="center">
+  ![Pumps](../images/pumps.jpg)
   <img src="https://github.com/user-attachments/assets/916cfd86-ea9d-4392-8d3f-8bc1339961f8" alt="Peristaltic pump" width="560"/>
 </p>
-
+![Macierz pugh](images/pugh_matrix.png)
 - Warianty testowane:
-  - **A — pompa z kompensacją pulsacji** (mechanizm kompensujący skokowe podania płynu),
-  - **B — pompa bez kompensacji** (prostsza konstrukcja).
+  - **A — pompa bez kompensacji** (prostsza konstrukcja).
+  - **B — pompa z kompensacją pulsacji** (mechanizm kompensujący skokowe podania płynu),
 - Kryteria oceny: precyzja dawkowania, pulsacja (stabilność przepływu), łatwość czyszczenia, koszt wykonania, kompatybilność z materiałami food-grade.
-- Wynik: wariant **A** uzyskał najlepszy bilans punktów w macierzy decyzyjnej (Pugh) — lepsza powtarzalność i jakość ścieżek; wariant B prostszy i tańszy, ale gorszy dla gęstszych mieszanek.
+- Wynik: wariant **B** uzyskał najlepszy bilans punktów w macierzy decyzyjnej (Pugh) — lepsza powtarzalność i jakość ścieżek; wariant A prostszy i tańszy, ale gorszy dla gęstszych mieszanek.
 
 Przykładowe zdjęcia porównawcze wyników dozowania / ścieżek:  
 <p align="center">
+  ![Pumps_result](../images/pumps_results.png)
   <img src="https://github.com/TanskiSzymon/food-printer/assets/108231030/45d1698a-4a03-4c6b-9ab7-3a8c82f8efa0" alt="Pump results" width="560"/>
 </p>
 
@@ -127,22 +132,3 @@ Przykładowe zdjęcia porównawcze wyników dozowania / ścieżek:
 
 ---
 
-## 8. Artefakty i dokumenty dołączone
-- Demo wideo (link powyżej).
-- Renders i zdjęcia prototypu (przykładowe obrazy w tym dokumencie).
-- Macierz decyzyjna (Pugh) — oceny wariantów systemu dozowania.
-- Arkusz kosztowy (surowce i energia) — podstawowe wyliczenia.
-
----
-
-## 9. Wnioski i dalsze kroki (na etapie 2)
-- Wariant dozowania z kompensacją (A) preferowany do dalszego rozwoju; wymaga optymalizacji mechanicznej i integracji elektronicznej (dedykowana PCB dla kanałów).
-- Priorytety fazy 2: zwiększenie powtarzalności, dopracowanie procedur CIP, ulepszenie generatora G-code i GUI, testy użytkowników oraz przygotowania do zgodności (HACCP).
-- Kontynuować zbieranie danych energetycznych i kosztowych, uzupełnić testy sensoryczne w małych panelach użytkowników.
-
----
-
-## 10. Kontakt / referencje
-Dalsze materiały i pełne pliki projektowe (CAD, schematy, firmware) dostępne na żądanie w repo prywatnym lub w dedykowanym archiwum roboczym.  
-
----
