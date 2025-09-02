@@ -151,24 +151,26 @@ gantt
 Repo korzysta z Issue/PR templates, tablicy Kanban i cotygodniowych przeglądów jakości.
 
 
-### 7. KPI (target)
-Kategoria	Metryka	Cel
-Techniczne	CV dozowania	≤ 5 %
-Techniczne	CIP	≤ 10 min
-Użytkowe	NPS	≥ 40
-Energetyka	Energia / porcja	≤ 0,1 kWh
-Środowiskowe	Odpad	≤ 5 g / porcja
-### 8. Kluczowe ryzyka & mitigacje
-Ryzyko	Mitigacja
-Higiena/CIP niewystarczająca	design-for-cleaning, testy ATP
-Pulsacja przy gęstych pastach	kompensacja A, profil prędkości
-Opóźnienia CE/HACCP	pre-audyt równoległy
-Niska akceptacja rynku	badania UX, iteracje menu
-### 9. Struktura repozytorium publicznego
-tests/       – powtarzalność, energia, cost_summary.md
-docs/        – gantty, WBS, Pugh, compliance drafts
-images/      – zdjęcia, rendery (low-res)
-phases/      – Phase_1.md, Phase_2.md, …
+## 7. KPI i kryteria sukcesu
+- **Techniczne:** odchyłka dozowania ≤ 5%; **CIP ≤ 10 min**; awaryjność < 2% / 100 h; energia ≤ 0,1 kWh / porcję.  
+- **Użytkowe:** NPS ≥ 40; czas przygotowania porcji ≤ 3 min; satysfakcja smaku ≥ 4/5.  
+- **Środowiskowe:** odpad ≤ 5 g / porcję.  
+- **Biznesowe:** koszt porcji konkurencyjny wobec alternatyw; ≥ 2–3 listy intencyjne na pilotaże.
+
+---
+
+## 8. Ryzyka i działania ograniczające
+- **Higiena/CIP** — ryzyko niewystarczającej czystości; działanie: design-for-cleaning, testy ATP, materiały „food-grade”.  
+- **Pulsacja przy gęstych pastach** — ryzyko jakości ścieżek; działanie: kompensacja pulsacji, profil prędkości, opcjonalne grzanie przewodów.  
+- **Zgodność (HACCP/CE)** — ryzyko wydłużenia terminu; działanie: równoległy pre-audyt i wcześniejsze przygotowanie dokumentacji.  
+- **Akceptacja rynku** — ryzyko niskiego NPS; działanie: iteracje menu, badania UX, materiały instruktażowe.
+
+
+## 9. Struktura repozytorium publicznego (skrót)
+- `tests/` — powtarzalność, energia, protokoły.  
+- `docs/` — Gantt/WBS (Mermaid), macierz Pugh, zgodność (HACCP draft, ścieżka CE, GDPR/DMP).  
+- `images/` — zdjęcia, rendery.  
+- `phases/` — szczegółowe opisy poszczególnych faz
 
 Szczegółowe CAD/PCB/firmware są przechowywane w repo prywatnym i udostępniane partnerom na żądanie.
 
