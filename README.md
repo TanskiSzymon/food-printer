@@ -24,20 +24,18 @@ gantt
   excludes  weekends
 
   section Etapy
-  Etap 1 PoC                :done,    2023-10-02, 2024-09-11
-  Etap 2 MVP                :active,  2025-07-01, 292d
-  Etap 3 Iteracje           :         2026-04-19, 150d
-  Etap 4 Certyfikacja       :         2026-09-15, 120d
+  Etap 1 — PoC (zakończony)              :done,    2023-10-02, 2024-09-11
+  Etap 2 MVP                             :active,  2025-07-01, 292d
+  Etap 3 — Iteracje rynkowe i uczenie    :         2026-04-19, 150d
+  Etap 4 Certyfikacja                    :         2026-09-15, 120d
 
   section Kamienie
-  M2.1 DFM/BOM ready        :milestone, 2025-09-30, 0d
-  M2.2 Pieczenie OK         :milestone, 2026-01-15, 0d
-  M2.3 Pompa + PCB RC       :milestone, 2026-02-15, 0d
-  M2.4 Integracja systemowa :milestone, 2026-03-17, 0d
-  M2.5 MVP RC → pilotaż     :milestone, 2026-04-18, 0d
-  M3   Walidacja rynkowa    :milestone, 2026-09-01, 0d
-  M4   Dokumentacja CE/HACCP:milestone, 2026-10-20, 0d
-  M5   Start pilotaży       :milestone, 2026-11-15, 0d
+  M1 — PoC zakończony (dowód koncepcji)        :milestone, m1, 2024-09-11, 0d
+  M2 — MVP (beta ready — testy wewnętrzne)     :milestone, m2, 2026-04-18, 0d
+  M3 — Walidacja rynkowa / wyniki pilotaży     :milestone, m3, 2026-09-01, 0d
+  M4 — Złożenie dokumentacji certyfikacyjnej   :milestone, m4, 2026-10-20, 0d
+  M5 — Start pilotaży komercyjnych             :milestone, m5, 2026-11-15, 0d
+  M6 — Go-to-market / pierwsze wdrożenia       :milestone, m6, 2027-03-01, 0d
 ```
 ## 3. Zakres rzeczowy (skrót)
 
@@ -65,6 +63,35 @@ Zakres jest modułowy, co pozwala równolegle rozwijać mechanikę, elektronikę
 ---
 
 ## 4. Rezultaty Etapu 1 (PoC)
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=P8IgyybBxyM">
+     <img src="https://img.youtube.com/vi/P8IgyybBxyM/0.jpg" alt="Prototype video">
+  </a>
+</p>
+
+Etap 1 udowodnił, że druk naleśników o złożonych wzorach i kolorach jest możliwy technicznie i uzasadniony kosztowo. Powstał działający prototyp, którego kluczowe elementy to:
+
+Rama Core XY z profili aluminiowych 30 × 30 mm, gwarantująca precyzję ruchu.
+
+Płyta BTT Octopus + sterowniki TMC2209, dające cichą pracę i sprzężenie zwrotne z driverów.
+
+Pompa perystaltyczna (wariant A) z kompensacją pulsacji, wybrana na podstawie macierzy Pugh jako najlepszy kompromis koszt–precyzja–higiena.
+
+Pipeline od grafiki PNG/SVG do G-code, pozwalający użytkownikowi zamienić obraz w zjadliwy wydruk.
+
+Koszt porcji ~0,42 zł (składniki + energia), co plasuje rozwiązanie w zasięgu rynku masowego.
+
+<p align="center">
+  <img src="images/Phase_1_results.png" alt="Wyniki fazy 1" width="560">
+</p>
+
+
+Pełna dokumentacja techniczna, pomiary pulsacji i próbki wydruków znajdują się w pliku
+phases/Phase_1.md
+*[Szczegóły etapu 1](phases/Phase_1.md)*
+
+
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=P8IgyybBxyM">
