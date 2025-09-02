@@ -49,14 +49,15 @@ gantt
 - **Procedury higieniczne** – design-for-cleaning, instrukcje CIP/SOP, pomiary ATP (Etap 2/3).  
 - **Testy i walidacja** – powtarzalność (≤ 5 %), energia, sensoryka, NPS; walidacja MVP (Etap 2), iteracje rynkowe (Etap 3).  
 - **Zgodność** – dokumentacja HACCP draft, ścieżka CE/LVD/EMC, pre-audyt (Etap 3) + pełne zgłoszenie (Etap 4).  
-- **Komunikacja i pilotaże** – rendery, wideo, ankiety, raporty pilotażowe; pitch-deck i one-pager do grantów.  
-- **Pakiet grantowy** – narracja, logframe, work-plan, budżet high-level, rejestr ryzyk.
+- **Komunikacja i pilotaże** – rendery, wideo, ankiety, raporty pilotażowe; pitch-deck i one-pager.  
 
-### Poza zakresem publicznym repo (krótkoterminowo)
 
-- Pełna, przemysłowa produkcja wkładów spożywczych (skala fabryczna).  
-- Zaawansowana diagnostyka medyczna / doradztwo kliniczne.  
-- Integracje z zewnętrznymi systemami e-health bez odrębnych analiz prawnych.
+### Poza zakresem (na tym etapie)
+
+- **Produkcja wkładów w skali fabrycznej** – docelowe linie przemysłowe będą opisane w oddzielnym, prywatnym dossier.  
+- **Usługi kliniczne / diagnostyczne** – wymagają certyfikowanych partnerów medycznych, nie są objęte bieżącym MVP.  
+- **Integracje e-health** (np. przesyłanie danych do aplikacji medycznych) – zostaną rozważone po etapie certyfikacji i ocenie wymagań prawnych.
+
 
 Zakres jest modułowy, co pozwala równolegle rozwijać mechanikę, elektronikę i software oraz przygotowywać dokumentację compliance (Etapy 3–4).
 
@@ -108,47 +109,31 @@ phases/Phase_1.md
 
 ### 6.1 Work Packages
 
-WP1 PM;&nbsp;WP2 Mechanika;&nbsp;WP3 Dozowanie;&nbsp;WP4 Elektronika;&nbsp;WP5 FW/SW;&nbsp;WP6 Testy;&nbsp;WP7 Compliance;&nbsp;WP8 Pilotaże.
+| WP | Zakres |
+|----|--------|
+| **WP1** | Project Management (PM) |
+| **WP2** | Mechanika |
+| **WP3** | Dozowanie |
+| **WP4** | Elektronika |
+| **WP5** | Firmware / Software |
+| **WP6** | Testy & Walidacja |
+| **WP7** | Compliance (HACCP / CE) |
+| **WP8** | Pilotaże & Go-to-Market |
 
-### 6.2 Harmonogram skrótowy (Etapy & kamienie)
+### 6.2 Struktura WBS (mermaid mindmap)
 
 ```mermaid
-gantt
-  title Food Printer — Roadmap (skrót)
-  dateFormat YYYY-MM-DD
-  excludes weekends
-
-  section Etapy
-  Etap 1 PoC (done)            :done,    2023-10-02, 2024-09-11
-  Etap 2 MVP                   :active,  2025-07-01, 292d
-  Etap 3 Iteracje & uczenie     :        2026-04-19, 150d
-  Etap 4 Certyfikacja + pilotaże:        2026-09-15, 120d
-
-  section Milestones
-  M2.1 DFM/BOM ready           :milestone, 2025-09-30, 0d
-  M2.2 Pieczenie OK            :milestone, 2026-01-15, 0d
-  M2.3 Pompa + PCB RC          :milestone, 2026-02-15, 0d
-  M2.4 Integracja systemowa    :milestone, 2026-03-17, 0d
-  M2.5 MVP RC → pilotaż        :milestone, 2026-04-18, 0d
-  M3   Walidacja rynkowa       :milestone, 2026-09-01, 0d
-  M4   Dokumentacja CE/HACCP   :milestone, 2026-10-20, 0d
-  M5   Start pilotaży          :milestone, 2026-11-15, 0d
-```
-
-### 6.3 WBS (orientacyjnie)
-```mindmap
-root((Food Printer))
+mindmap
+  root((Food Printer))
     WP1 PM
     WP2 Mechanika
     WP3 Dozowanie
     WP4 Elektronika
-    WP5 FW/SW
+    WP5 FW / SW
     WP6 Testy
     WP7 Compliance
     WP8 Pilotaże
 ```
-Repo korzysta z Issue/PR templates, tablicy Kanban i cotygodniowych przeglądów jakości.
-
 
 ## 7. KPI i kryteria sukcesu
 - **Techniczne:** odchyłka dozowania ≤ 5%; **CIP ≤ 10 min**; awaryjność < 2% / 100 h; energia ≤ 0,1 kWh / porcję.  
