@@ -91,30 +91,6 @@ Pełna dokumentacja techniczna, pomiary pulsacji i próbki wydruków znajdują s
 phases/Phase_1.md
 *[Szczegóły etapu 1](phases/Phase_1.md)*
 
-
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=P8IgyybBxyM">
-     <img src="https://img.youtube.com/vi/P8IgyybBxyM/0.jpg" alt="Prototype video">
-  </a>
-</p>
-
-- **Mechanika** – rama 30×30, **Core XY/GT2**, oś Z: NEMA 17 + śruba T8 z nakrętką kompensującą luz.  
-- **Sterowanie** – BTT Octopus + TMC2209 (hybrydowe sprzężenie), autorskie GUI dotykowe.  
-- **Pieczenie** – elektryczny grill z kontrolą temperatury.  
-- **Dozowanie** – pompa perystaltyczna wariant A (konpat. pulsacji) vs B; wybrano **A** na podstawie macierzy Pugh.  
-- **Pipeline** – PNG/SVG → separacja kolorów → G-code → druk.  
-- **Ekonomia** – ~0,42 zł / naleśnik (70 g) przy koszcie energii ~0,09 zł i składnikach ~0,34 zł.  
-- **Artefakty** – demo wideo, rendery, zdjęcia próbek, porównanie pulsacji (A vs B).
-
-<p align="center">
-  <img src="images/Phase_1_results.png" alt="Wyniki fazy 1" width="560">
-</p>
-
-*[Szczegóły etapu 1](phases/Phase_1.md)*
-
-phases/Phase_1.md
-
 ---
 
 ## 5. Architektura techniczna (skrót)
