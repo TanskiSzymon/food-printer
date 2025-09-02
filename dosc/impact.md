@@ -38,7 +38,7 @@
 
 - **Osoby z niepełnosprawnościami (np. ograniczona mobilność, wzrok)**  
   - interfejs dotykowo-głosowy, integracja z czytnikami ekranu.  
-  - automatyczne pobieranie wkładów i mycie CIP – brak potrzeby ręcznego gotowania.  
+  - automatyczne pobieranie wkładów i mycie – brak potrzeby ręcznego gotowania.  
 
 - **Seniorzy** – przypomnienia posiłków, monitorowanie przyjmowania kalorii / nawodnienia.  
 
