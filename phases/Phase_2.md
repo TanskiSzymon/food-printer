@@ -46,8 +46,8 @@ gantt
   section Kamienie milowe
   M1 — Konstrukcja zoptymalizowana (DFM done)              :milestone, m1, 2025-10-15, 0d
   M2 — Moduły pieczenia zintegrowane                        :milestone, m2, 2025-12-01, 0d
-  M3 — Pompa i elektronika produkcyjna (RC)                 :milestone, m3, 2026-02-15, 0d
-  M4 — MVP Release Candidate / gotowe do pilotażu          :milestone, m4, 2026-03-15, 0d
+  M3 — Pompa i elektronika produkcyjna (RC)                 :milestone, m3, 2026-03-15, 0d
+  M4 — MVP Release Candidate / gotowe do pilotażu          :milestone, m4, 2026-06-15, 0d
 ```
 
 
@@ -208,8 +208,8 @@ W etapie 2 realizujemy:
 **Kamienie milowe (daty zgodne z harmonogramem):**
 - **M2.1 — Konstrukcja zoptymalizowana (DFM done)** — 2025-10-15. 
 - **M2.2 — Moduły pieczenia zintegrowane** — 2025-12-01. 
-- **M2.3 — Pompa i elektronika produkcyjna (RC)** — 2026-02-15.
-- **M2.4 — MVP Release Candidate / gotowe do pilotażu** — 2026-03-15. 
+- **M2.3 — Pompa i elektronika produkcyjna (RC)** — 2026-03-15.
+- **M2.4 — MVP Release Candidate / gotowe do pilotażu** — 2026-06-15. 
 
 **Uwagi:** w publicznym repo umieszczamy jedynie podsumowania, zdjęcia niskiej rozdzielczości, mockupy i raporty wysokiego poziomu. Pliki produkcyjne (pełne CAD, gerbery, firmware) archiwizujemy w repo prywatnym i udostępniamy na żądanie partnerom/wnioskodawcom.
 
