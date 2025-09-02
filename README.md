@@ -7,6 +7,50 @@ Projekt dotyczy opracowania domowego systemu druku żywności, łączącego auto
 
 **Teza projektu:** druk żywności w warunkach domowych może być technicznie wykonalny, ekonomicznie uzasadniony i korzystny społecznie – pod warunkiem zapewnienia powtarzalności procesu, higieny (CIP) i zgodności z normami bezpieczeństwa.
 
+
+## 2. Fazy i status
+
+Projekt realizowany jest w czterech etapach. Każdy etap ma wyraźnie określone cele i kryteria przejścia.
+
+| Etap | Status | Ramy czasowe | Cel etapu (skrót) |
+|------|--------|--------------|-------------------|
+| **Etap 1 — PoC** | **zakończony** | 2023-10-02 → 2024-09-11 | potwierdzenie technicznej wykonalności druku naleśników w różnych kształtach/kolorach i wstępna walidacja ekonomiczna |
+| **Etap 2 — MVP** | **w toku** | 2025-07-01 → 2026-04-18 | urządzenie reprezentatywne dla użytkownika: stabilne dozowanie (bez pulsacji), system pieczenia warstwowego, komora klimatyczna, szybka wymiana wkładów, GUI z CIP, dokumentacja serwisowa |
+| **Etap 3 — Iteracje rynkowe** | planowany | 2026-04-19 → 2026-09-15 | feedback z pilotaży, iteracyjne poprawki HW/SW, optymalizacja menu startowego, walidacja KPI (NPS, waste, repeatability) |
+| **Etap 4 — Certyfikacja i pilotaże komercyjne** | planowany | 2026-09-15 → 2027-01-13 | przygotowanie i złożenie dokumentacji HACCP/CE, audyty, pilotaże w docelowych lokalizacjach (szkoły, HoReCa, eventy) |
+
+Każdy etap kończy się oceną kryteriów wyjścia (exit criteria) i raportem techniczno-biznesowym, stanowiącym podstawę do decyzji o kontynuacji prac i pozyskaniu kolejnych środków.
+
+---
+
+```mermaid
+gantt
+  title Food Printer — Roadmapa (etapy + kamienie milowe)
+  dateFormat YYYY-MM-DD
+  excludes  weekends
+
+  section Etapy
+  Etap 1 — PoC (zakończony)                    :done,    poc1, 2023-10-02, 2024-09-11
+  Etap 2 — MVP (rozwój / stabilizacja)         :active,  mvp2, 2025-07-01, 292d
+  Etap 3 — Iteracje rynkowe i uczenie          :         it3,  2026-04-19, 150d
+  Etap 4 — Certyfikacja i pilotaże             :         cer4, 2026-09-15, 120d
+
+  section Kamienie milowe
+  M1  — PoC zakończony (dowód koncepcji)                     :milestone, m1,  2024-09-11, 0d
+  M2.1— Konstrukcja zoptymalizowana (DFM/BOM)                :milestone, m21, 2025-09-30, 0d
+  M2.2— Systemy pieczenia zintegrowane (bottom + top)        :milestone, m22, 2026-01-15, 0d
+  M2.3— Pompa + elektronika bez pulsacji (RC)                :milestone, m23, 2026-02-15, 0d
+  M2.4— Integracja systemowa ukończona                       :milestone, m24, 2026-03-17, 0d
+  M2.5— MVP Release Candidate (gotowe do pilotażu)           :milestone, m25, 2026-04-18, 0d
+  M3  — Walidacja rynkowa / wyniki pilotaży                  :milestone, m3,  2026-09-01, 0d
+  M4  — Złożenie dokumentacji certyfikacyjnej                :milestone, m4,  2026-10-20, 0d
+  M5  — Start pilotaży komercyjnych                          :milestone, m5,  2026-11-15, 0d
+  M6  — Go-to-market / pierwsze wdrożenia                    :milestone, m6,  2027-03-01, 0d
+```
+
+
+
+
 ---
 
 ## 2. Fazy i status
