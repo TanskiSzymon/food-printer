@@ -14,7 +14,7 @@ gantt
   Etap 2 — start                             :active, start2, 2025-07-01, 0d
 
   section Konstrukcja i mechanika
-  2.1 Poprawy konstrukcji nośnej (sztywność, demontaż) :konstr, 2025-07-01, 45d
+  2.1 Poprawy konstrukcji nośnej (sztywność, demontaż) :konstr, 2025-07-01, 60d
   2.2 DFM/DFA i aktualizacja BOM (optymalizacja produkcji) :after konstr, 30d
 
   section Systemy pieczenia (warstwa dolna i górna)
@@ -23,12 +23,12 @@ gantt
   2.5 Integracja systemów pieczenia (sterowanie temperaturą i profile) :bake_int, after bake_top, 30d
 
   section Pompa perystaltyczna i elektronika dozowania
-  2.6 Upgrade pompy perystaltycznej (elim. pulsacji)    :pump_upg, 2025-07-15, 90d
+  2.6 Upgrade pompy perystaltycznej (elim. pulsacji)    :pump_upg, 2025-08-15, 90d
   2.7 Projekt i produkcja dedykowanej elektroniki przełączającej pompy (PCB zamiast przekaźników) :pump_elec, after pump_upg, 60d
   2.8 Testy przepływu, powtarzalności i cykli CIP       :pump_test, after pump_elec, 30d
 
   section Komora i zarządzanie temperaturą
-  2.9 Opracowanie komory roboczej i systemu utrzymania temperatury :chamber, 2025-09-01, 45d
+  2.9 Opracowanie komory roboczej i systemu utrzymania temperatury :chamber, 2025-10-01, 45d
   2.10 Sterowanie klimatem komory (czujniki, PID, profile) :chamber_ctrl, after chamber, 30d
 
   section Zasobnik wkładów i wymiana
@@ -84,7 +84,7 @@ W etapie 2 realizujemy:
 > Terminy i kolejność odzwierciedlają plan Mermaid: start 2025-07-01. Podane daty orientacyjne wynikają z kolejności zadań w harmonogramie (zadania „after ...” są uruchamiane po zakończeniu poprzednika).
 
 **2.1 Poprawy konstrukcji nośnej (sztywność, demontaż)**  
-- Okres: 2025-07-01, 45d.  
+- Okres: 2025-07-01, 60d.  
 - Zakres: wzmocnienie punktów montażowych, redukcja rezonansów, uproszczenie demontażu modułów (tool-less tam, gdzie możliwe). Aktualizacja punktów mocowania, ustandaryzowanie elementów łączących.  
 - Rezultat: zaktualizowane eksporty CAD + rysunki 2D, test sztywności (pomiar dewiacji w kluczowych punktach).
 
@@ -109,7 +109,7 @@ W etapie 2 realizujemy:
 - Rezultat: profile temperaturowe, firmware patch, raport termiczny.
 
 **2.6 Upgrade pompy perystaltycznej (elim. pulsacji)**  
-- Okres: 2025-07-15, 90d.  
+- Okres: 2025-08-15, 90d.  
 - Zakres: mechaniczne i sterownicze poprawki pompy (kompensacja pulsacji, tłumienie, materiał food-grade). Równoległe testy wariantów A/B.  
 - Rezultat: CAD pompy vA, wykresy Q=f(rpm), wstępne testy pulsacji.
 
@@ -124,7 +124,7 @@ W etapie 2 realizujemy:
 - Rezultat: raport porównawczy A/B, metryki powtarzalności, procedura CIP.
 
 **2.9 Opracowanie komory roboczej i systemu utrzymania temperatury**  
-- Okres: 2025-09-01, 45d.  
+- Okres: 2025-10-01, 45d.  
 - Zakres: konstrukcja komory (izolacja, przepływ powietrza, okna inspekcyjne), miejsca montażu sensorów, bezpieczeństwo.  
 - Rezultat: CAD komory, lista komponentów, testy szczelności/izolacji.
 
@@ -203,24 +203,14 @@ W etapie 2 realizujemy:
 
 ---
 
-## 5. Dostawy i kamienie milowe (D2.* i M2.*)
-
-**Główne dostawy (publiczne podsumowania):**
-- **D2.1** — `hardware/phase2/mech_export.zip` — CAD-exporty (PDF/STEP thumbnails) + `hardware/phase2/BOM.csv`.  
-- **D2.2** — `docs/thermal/bake_bottom_report.pdf` — raport projektu i testów dolnego systemu pieczenia.  
-- **D2.3** — `hardware/phase2/bake_top_thumbnail.png` — wizualizacja modułu pieczenia górnego + krótki opis.  
-- **D2.4** — `hardware/pump/pump_vA_report.pdf` — raport pompy vA: CAD, wykresy Q=f(rpm), analiza pulsacji.  
-- **D2.5** — `electronics/pump_controller_summary.md` — publiczne podsumowanie projektu PCB (schematyczne wyjaśnienie, bez gerberów).  
-- **D2.6** — `hardware/cartridge/README.md` — opis zasobnika i instrukcja wymiany (publiczny opis i zdjęcia niskiej rozdzielczości).  
-- **D2.7** — `software/gui/mockups/*.png` — makiety GUI i krótki przewodnik operatora (publiczne).  
-- **D2.RC** — `releases/RC_phase2_v1.zip` — Release Candidate (publiczne podsumowanie: raport integracyjny, testy skrócone, instrukcje pilotażowe).
+## 5. Kamienie milowe 
 
 **Kamienie milowe (daty zgodne z harmonogramem):**
-- **M2.1 — Konstrukcja zoptymalizowana (DFM done)** — 2025-09-15. (powiązane z D2.1)  
-- **M2.2 — Moduły pieczenia zintegrowane** — 2025-11-01. (powiązane z D2.2/D2.3/D2.5)  
-- **M2.3 — Pompa i elektronika produkcyjna (RC)** — 2026-01-15. (powiązane z D2.4/D2.5/D2.8)  
-- **M2.4 — MVP Release Candidate / gotowe do pilotażu** — 2026-02-15. (powiązane z D2.RC)
+- **M2.1 — Konstrukcja zoptymalizowana (DFM done)** — 2025-10-15. 
+- **M2.2 — Moduły pieczenia zintegrowane** — 2025-11-01. 
+- **M2.3 — Pompa i elektronika produkcyjna (RC)** — 2026-01-15.
+- **M2.4 — MVP Release Candidate / gotowe do pilotażu** — 2026-02-15. 
 
-**Uwagi dotyczące dostaw:** w publicznym repo umieszczamy jedynie podsumowania, zdjęcia niskiej rozdzielczości, mockupy i raporty wysokiego poziomu. Pliki produkcyjne (pełne CAD, gerbery, firmware) archiwizujemy w repo prywatnym i udostępniamy na żądanie partnerom/wnioskodawcom.
+**Uwagi:** w publicznym repo umieszczamy jedynie podsumowania, zdjęcia niskiej rozdzielczości, mockupy i raporty wysokiego poziomu. Pliki produkcyjne (pełne CAD, gerbery, firmware) archiwizujemy w repo prywatnym i udostępniamy na żądanie partnerom/wnioskodawcom.
 
 ---
