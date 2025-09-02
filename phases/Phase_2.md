@@ -36,7 +36,7 @@ gantt
   2.12 Prototyp wymiany wkładów i test ergonomii serwisu :cartridge_test, after cartridge, 30d
 
   section Oprogramowanie i UX
-  2.13 Poprawa interfejsu użytkownika (flow, kalibracja, CIP) :ui, 2025-07-15, 60d
+  2.13 Poprawa interfejsu użytkownika (flow, kalibracja, CIP) :ui, 2025-09-15, 60d
   2.14 Integracja GUI z firmware i testy użyteczności       :ui_test, after ui, 30d
 
   section Integracja i walidacja MVP
@@ -45,9 +45,9 @@ gantt
 
   section Kamienie milowe
   M1 — Konstrukcja zoptymalizowana (DFM done)              :milestone, m1, 2025-10-15, 0d
-  M2 — Moduły pieczenia zintegrowane                        :milestone, m2, 2025-11-01, 0d
-  M3 — Pompa i elektronika produkcyjna (RC)                 :milestone, m3, 2026-01-15, 0d
-  M4 — MVP Release Candidate / gotowe do pilotażu          :milestone, m4, 2026-02-15, 0d
+  M2 — Moduły pieczenia zintegrowane                        :milestone, m2, 2025-12-01, 0d
+  M3 — Pompa i elektronika produkcyjna (RC)                 :milestone, m3, 2026-02-15, 0d
+  M4 — MVP Release Candidate / gotowe do pilotażu          :milestone, m4, 2026-03-15, 0d
 ```
 
 
@@ -144,7 +144,7 @@ W etapie 2 realizujemy:
 - Rezultat: raport ergonomii, instrukcja wymiany.
 
 **2.13 Poprawa interfejsu użytkownika (flow, kalibracja, CIP)**  
-- Okres: 2025-07-15, 60d.  
+- Okres: 2025-09-15, 60d.  
 - Zakres: redesign flow operatora, dodanie procedur kalibracji i CIP, makiety i prototypy ekranów.  
 - Rezultat: zestaw mockupów, zadania UI do implementacji.
 
@@ -207,9 +207,9 @@ W etapie 2 realizujemy:
 
 **Kamienie milowe (daty zgodne z harmonogramem):**
 - **M2.1 — Konstrukcja zoptymalizowana (DFM done)** — 2025-10-15. 
-- **M2.2 — Moduły pieczenia zintegrowane** — 2025-11-01. 
-- **M2.3 — Pompa i elektronika produkcyjna (RC)** — 2026-01-15.
-- **M2.4 — MVP Release Candidate / gotowe do pilotażu** — 2026-02-15. 
+- **M2.2 — Moduły pieczenia zintegrowane** — 2025-12-01. 
+- **M2.3 — Pompa i elektronika produkcyjna (RC)** — 2026-02-15.
+- **M2.4 — MVP Release Candidate / gotowe do pilotażu** — 2026-03-15. 
 
 **Uwagi:** w publicznym repo umieszczamy jedynie podsumowania, zdjęcia niskiej rozdzielczości, mockupy i raporty wysokiego poziomu. Pliki produkcyjne (pełne CAD, gerbery, firmware) archiwizujemy w repo prywatnym i udostępniamy na żądanie partnerom/wnioskodawcom.
 
