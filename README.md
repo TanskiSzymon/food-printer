@@ -80,7 +80,6 @@ Zakres jest modułowy, co pozwala równolegle rozwijać mechanikę, elektronikę
 - **Sterowanie** – BTT Octopus + TMC2209 (hybrydowe sprzężenie), autorskie GUI dotykowe.  
 - **Pieczenie** – elektryczny grill z kontrolą temperatury.  
 - **Dozowanie** – pompa perystaltyczna wariant A (konpat. pulsacji) vs B; wybrano **A** na podstawie macierzy Pugh.  
-  ![Macierz Pugh](images/pugh_matrix.png)  
 - **Pipeline** – PNG/SVG → separacja kolorów → G-code → druk.  
 - **Ekonomia** – ~0,42 zł / naleśnik (70 g) przy koszcie energii ~0,09 zł i składnikach ~0,34 zł.  
 - **Artefakty** – demo wideo, rendery, zdjęcia próbek, porównanie pulsacji (A vs B).
@@ -89,6 +88,7 @@ Zakres jest modułowy, co pozwala równolegle rozwijać mechanikę, elektronikę
   <img src="images/Phase_1_results.png" alt="Wyniki fazy 1" width="560">
 </p>
 
+*[Szczegóły Etapu 1](phases/Phase_1.md)*
 ---
 
 ## 5. Architektura techniczna (skrót)
@@ -99,7 +99,6 @@ Zakres jest modułowy, co pozwala równolegle rozwijać mechanikę, elektronikę
 - **Software** – firmware + GUI, generator G-code, profile termiczne.  
 - **Higiena** – szybki demontaż, materiały food-grade, CIP ≤ 10 min (target).  
 
-*[Szczegóły Etapu 1](phases/Phase_1.md)*
 
 ---
 
