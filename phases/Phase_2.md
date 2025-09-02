@@ -82,136 +82,57 @@ W etapie 2 realizujemy:
 
 ## 3. Zadania (szczegółowo, zgodnie z harmonogramem)
 
-> Terminy i kolejność odzwierciedlają plan Mermaid: start 2025-07-01. Podane daty orientacyjne wynikają z kolejności zadań w harmonogramie (zadania „after ...” są uruchamiane po zakończeniu poprzednika).
+Terminy i zależności odpowiadają diagramowi Mermaid (start 2025-07-01). Zadania „after …” ruszają po zakończeniu poprzedników.
 
-**2.1 Poprawy konstrukcji nośnej (sztywność, demontaż)**  
-- Okres: 2025-07-01, 60d.  
-- Zakres: wzmocnienie punktów montażowych, redukcja rezonansów, uproszczenie demontażu modułów (tool-less tam, gdzie możliwe). Aktualizacja punktów mocowania, ustandaryzowanie elementów łączących.  
-- Rezultat: zaktualizowane eksporty CAD + rysunki 2D, test sztywności (pomiar dewiacji w kluczowych punktach).
-
-**2.2 DFM/DFA i aktualizacja BOM (optymalizacja produkcji)**  
-- Okres: po 2.1, 30d.  
-- Zakres: analiza produkcyjna, wybór standardowych elementów, aktualizacja BOM (koszt/razem).  
-- Rezultat: finalny BOM.csv, notatka DFM z rekomendacjami zakupowymi.
-
-**2.3 Projekt systemu pieczenia od dołu (nowy lub upgrade)**  
-- Okres: start po 2.1, 45d.  
-- Zakres: zaprojektowanie lub upgrade grzanego stołu zapewniającego równomierne podgrzewanie i stabilność temperatury; dobór grzałek, czujników i układu zasilania.  
-- Rezultat: schemat grzałek, specyfikacja termiczna, pierwszy prototyp.
-
-**2.4 Budowa modułu pieczenia od góry (dla kolejnych warstw)**  
-- Okres: po 2.3, 60d.  
-- Zakres: projekt i prototyp modułu górnego (punktowe/panelowe nagrzewanie) dla warstw kolejnych; bezpieczne odstępy, ochrona przed przegrzaniem.  
-- Rezultat: prototyp modułu top-heating, testy wpływu na teksturę i kolor.
-
-**2.5 Integracja systemów pieczenia (sterowanie temperaturą i profile)**  
-- Okres: po 2.4, 30d.  
-- Zakres: integracja bottom/top heating z firmware (profile temperaturowe, PID), testy sekwencji pieczenia wielowarstwowego.  
-- Rezultat: profile temperaturowe, firmware patch, raport termiczny.
-
-**2.6 Upgrade pompy perystaltycznej (elim. pulsacji)**  
-- Okres: 2025-08-15, 90d.  
-- Zakres: mechaniczne i sterownicze poprawki pompy (kompensacja pulsacji, tłumienie, materiał food-grade). Równoległe testy wariantów A/B.  
-- Rezultat: CAD pompy vA, wykresy Q=f(rpm), wstępne testy pulsacji.
-
-**2.7 Projekt i produkcja dedykowanej elektroniki przełączającej pompy (PCB zamiast przekaźników)**  
-- Okres: po 2.6, 60d.  
-- Zakres: projekt PCB z MOSFET/sterowaniem PWM, izolacją i zabezpieczeniami; prototypowanie PCB.  
-- Rezultat: schemat, gerbery (wersja prototypowa), testy sterowania.
-
-**2.8 Testy przepływu, powtarzalności i cykli CIP**  
-- Okres: po 2.7, 30d.  
-- Zakres: pełne testy przepływowe, statystyka powtarzalności dozowania (n≥30), testy CIP dla obudowy pompy i przewodów.  
-- Rezultat: raport porównawczy A/B, metryki powtarzalności, procedura CIP.
-
-**2.9 Opracowanie komory roboczej i systemu utrzymania temperatury**  
-- Okres: 2025-10-01, 45d.  
-- Zakres: konstrukcja komory (izolacja, przepływ powietrza, okna inspekcyjne), miejsca montażu sensorów, bezpieczeństwo.  
-- Rezultat: CAD komory, lista komponentów, testy szczelności/izolacji.
-
-**2.10 Sterowanie klimatem komory (czujniki, PID, profile)**  
-- Okres: po 2.9, 30d.  
-- Zakres: integracja czujników, algorytmy PID, interfejs z firmware do wyzwalania profili temperaturowych.  
-- Rezultat: implementacja kontrolera klimatu, logi testów temperaturowych.
-
-**2.11 Projekt zasobnika wkładów i mechanizmu szybkiej wymiany**  
-- Okres: 2025-10-01, 45d.  
-- Zakres: ergonomia, kompatybilność materiałowa, zabezpieczenia przed przeciekami, blokady mechaniczne.  
-- Rezultat: CAD zasobnika, spec. materiałowa, makieta serwisowa.
-
-**2.12 Prototyp wymiany wkładów i test ergonomii serwisu**  
-- Okres: po 2.11, 30d.  
-- Zakres: budowa prototypu mechanizmu wymiany, testy czasu wymiany i ergonomii.  
-- Rezultat: raport ergonomii, instrukcja wymiany.
-
-**2.13 Poprawa interfejsu użytkownika (flow, kalibracja, CIP)**  
-- Okres: 2025-09-15, 60d.  
-- Zakres: redesign flow operatora, dodanie procedur kalibracji i CIP, makiety i prototypy ekranów.  
-- Rezultat: zestaw mockupów, zadania UI do implementacji.
-
-**2.14 Integracja GUI z firmware i testy użyteczności**  
-- Okres: po 2.13, 30d.  
-- Zakres: wdrożenie GUI na urządzeniu, testy scenariuszy użytkownika (task success).  
-- Rezultat: raport użyteczności, lista poprawek.
-
-**2.15 Integracja podzespołów i testy systemowe (funkcjonalne)**  
-- Okres: po 2.8 (po testach pomp), 30d.  
-- Zakres: montaż wszystkich zintegrowanych modułów (mechanika, pompa, pieczenie, komora, UI) i testy funkcjonalne end-to-end.  
-- Rezultat: raport integracyjny, lista krytycznych defektów.
-
-**2.16 Walidacja powtarzalności, CIP i wydajności produkcyjnej**  
-- Okres: po 2.15, 30d.  
-- Zakres: pełna walidacja dojrzałości procesu: powtarzalność porcji (statystyka), czas CIP, testy wydajnościowe (przepustowość).  
-- Rezultat: raport walidacyjny, rekomendacja gotowości RC.
+| Nr | Nazwa zadania | Okres | Zakres (skrót) | Główny rezultat |
+|----|---------------|-------|----------------|-----------------|
+| **2.1** | Poprawy konstrukcji nośnej | 2025-07-01 → 2025-08-30 (60 d) | Sztywność, redukcja rezonansów, tool-less demontaż | Eksporty CAD, test sztywności |
+| **2.2** | DFM/DFA + aktualizacja BOM | 2025-08-31 → 2025-09-29 (30 d) | Analiza produkcyjna, standaryzacja części | BOM.csv, notatka DFM |
+| **2.3** | System pieczenia od dołu | 2025-08-31 → 2025-10-14 (45 d) | Nowy/upgrade grzanego stołu, czujniki | Schemat grzałek, prototyp |
+| **2.4** | Moduł pieczenia od góry | 2025-10-15 → 2025-12-13 (60 d) | Projekt/punktowe grzanie górne | Prototyp top-heating |
+| **2.5** | Integracja systemów pieczenia | 2025-12-14 → 2026-01-13 (30 d) | PID, profile temperaturowe | Firmware patch, raport termiczny |
+| **2.6** | Upgrade pompy perystaltycznej | 2025-08-15 → 2025-11-13 (90 d) | Eliminacja pulsacji | CAD vA, wykresy Q=f(rpm) |
+| **2.7** | PCB sterująca kanałami pompy | 2025-11-14 → 2026-01-12 (60 d) | Projekt/produkcja PCB | Gerbery + testy |
+| **2.8** | Testy przepływu / CIP | 2026-01-13 → 2026-02-11 (30 d) | Powtarzalność, statystyka, CIP | Raport porównawczy |
+| **2.9** | Komora robocza (mechanika) | 2025-10-01 → 2025-11-14 (45 d) | Izolacja, przepływ powietrza | CAD komory |
+| **2.10**| Sterowanie klimatem komory | 2025-11-15 → 2025-12-14 (30 d) | Czujniki, PID, profile | Logi testów termicznych |
+| **2.11**| Zasobnik wkładów (projekt) | 2025-10-01 → 2025-11-14 (45 d) | Ergonomia, blokady | CAD zasobnika |
+| **2.12**| Prototyp wymiany wkładów | 2025-11-15 → 2025-12-14 (30 d) | Test czasu wymiany, ergonomia | Raport ergonomii |
+| **2.13**| Poprawa GUI (flow, CIP) | 2025-09-15 → 2025-11-13 (60 d) | Redesign UI, prototypy | Mock-upy |
+| **2.14**| Integracja GUI + testy UX | 2025-11-14 → 2025-12-13 (30 d) | Implementacja na urządzeniu | Raport użyteczności |
+| **2.15**| Integracja systemowa | 2026-02-12 → 2026-03-13 (30 d) | Montaż wszystkich modułów, testy E2E | Raport integracyjny |
+| **2.16**| Walidacja MVP | 2026-03-14 → 2026-04-12 (30 d) | Powtarzalność, CIP, wydajność | Raport walidacyjny |
 
 ---
 
-## 4. Kryteria akceptacji (exit criteria) — zmapowane do zadań i kamieni milowych
+## 4. Kryteria akceptacji (exit criteria)
 
-> Kryteria wejścia/wyjścia są mierzalne. Spełnienie poniższych kryteriów jest wymagane do przejścia do kolejnych kamieni milowych.
+Ogólne: pełna dokumentacja testów w repo (publiczne podsumowania, szczegóły w repo prywatnym); artefakty składające się na dostawy D2.\*.
 
-**Ogólne wymagania dla etapu 2 (dotyczą wszystkich zadań):**
-- Dokumentacja wyników testów dostępna w repo (publiczne podsumowania; szczegóły techniczne w repo prywatnym).
-- Artefakty (CAD-eksporty, pliki raportów, mockupy) składające się na odpowiednie dostawy D2.* (patrz punkt 5).
+### Powiązanie z kamieniami milowymi
 
-**Kryteria szczegółowe (wybrane powiązanie z zadaniami):**
-
-- *2.1 / 2.2 (Konstrukcja / DFM)*  
-  - Akceptacja: raport DFM i zaktualizowany BOM.csv; pomiary sztywności wykazują poprawę pozycji o co najmniej X% w porównaniu do stanu przed poprawą (wartość X ustalana przez PM, zwykle 20–50% zależnie od punktu krytycznego).  
-  - Warunek M1: ukończenie DFM i eksportów CAD do daty M1 (2025-09-15).
-
-- *2.3 / 2.4 / 2.5 (Systemy pieczenia)*  
-  - Akceptacja: stabilność temperatury stół/top w zadanym profilu ±2°C; test wypieku pokazuje równomierne zrumienienie i spełnienie kryteriów sensorycznych w ≥80% przypadków testowych.  
-  - Warunek M2: moduły pieczenia zintegrowane i przetestowane termicznie do M2 (2025-11-01).
-
-- *2.6 / 2.7 / 2.8 (Pompa i elektronika dozowania)*  
-  - Akceptacja: CV przepływu i masy porcji dla n≥30 ≤ **5%**; wizualna redukcja pulsacji w porównaniu A vs B (raport); PCB sterująca przełącza kanały bezbłędnie i spełnia testy EMI podstawowe.  
-  - Warunek M3: pompa vA + PCB prototypowe zakończone i przetestowane do M3 (2026-01-15).
-
-- *2.9 / 2.10 (Komora i kontrola klimatu)*  
-  - Akceptacja: komora utrzymuje zadane profile temperaturowe ±2°C przez zadany czas procesu; implementacja logów temperaturowych i zabezpieczeń przed przegrzaniem.
-
-- *2.11 / 2.12 (Zasobnik wkładów)*  
-  - Akceptacja: czas wymiany wkładu <= zadany limit (np. ≤ 60 s – do ustalenia przez PM), ergonomiczne testy pozytywne (task success), brak przecieków w testach ciśnieniowych.
-
-- *2.13 / 2.14 (UI / Integracja)*  
-  - Akceptacja: task success ≥ 90% w scenariuszach podstawowych (wybór wzoru, uruchomienie, kalibracja, procedura CIP), zgłoszone krytyczne błędy ≤ 5 priorytetowych.
-
-- *2.15 / 2.16 (Integracja i walidacja)*  
-  - Akceptacja RC: powtarzalność porcji ≤ 5%, CIP ≤ 10 min (procedura w praktyce), pełna lista krytycznych defektów zamknięta lub sklasyfikowana z planem naprawczym.
-
-**Warunki przejścia do Etapu 3:** wszystkie warunki powyższe spełnione i podpis PM; M4 (MVP Release Candidate) osiągnięty (2026-02-15).
+| Zadania | Kryterium / metryka | Kamień milowy (data) |
+|---------|--------------------|----------------------|
+| 2.1-2.2 | Raport DFM + BOM zatwierdzone; poprawa sztywności ≥ X % | **M2.1 — 2025-09-30** |
+| 2.3-2.5 | Stabilność temp. ±2 °C, równomierny wypiek ≥ 80 % prób | **M2.2 — 2026-01-15** |
+| 2.6-2.8 | CV porcji ≤ 5 %, PCB pompy przechodzi testy EMI/CIP | **M2.3 — 2026-02-15** |
+| 2.15 | Testy E2E bez kryt. defektów, raport integracyjny OK | **M2.4 — 2026-03-17** |
+| 2.16 | Powtarzalność ≤ 5 %, CIP ≤ 10 min, GUI task-success ≥ 90 % | **M2.5 — 2026-04-18** |
 
 ---
 
-## 5. Kamienie milowe 
+## 5. Kamienie milowe (Mermaid)
 
-**Kamienie milowe (daty zgodne z harmonogramem):**
-- **M2.1 — Konstrukcja zoptymalizowana (DFM done)** — 2025-10-15. 
-- **M2.2 — Moduły pieczenia zintegrowane** — 2025-12-01. 
-- **M2.3 — Pompa i elektronika produkcyjna (RC)** — 2026-03-15.
-- **M2.4 — MVP Release Candidate / gotowe do pilotażu** — 2026-06-15. 
+```mermaid
+gantt
+  title Kamienie milowe — Etap 2 (MVP)
+  dateFormat YYYY-MM-DD
+  excludes weekends
 
-**Uwagi:** w publicznym repo umieszczamy jedynie podsumowania, zdjęcia niskiej rozdzielczości, mockupy i raporty wysokiego poziomu. Pliki produkcyjne (pełne CAD, gerbery, firmware) archiwizujemy w repo prywatnym i udostępniamy na żądanie partnerom/wnioskodawcom.
-
----
+  section Kamienie milowe
+  M2.1 — Konstrukcja zoptymalizowana (DFM/BOM)              :milestone, m2_1, 2025-09-30, 0d
+  M2.2 — Systemy pieczenia zintegrowane (bottom + top)      :milestone, m2_2, 2026-01-15, 0d
+  M2.3 — Pompa + elektronika bez pulsacji (RC)              :milestone, m2_3, 2026-02-15, 0d
+  M2.4 — Integracja systemowa ukończona                     :milestone, m2_4, 2026-03-17, 0d
+  M2.5 — MVP Release Candidate (gotowe do pilotażu)         :milestone, m2_5, 2026-04-18, 0d
+```
