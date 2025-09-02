@@ -89,6 +89,7 @@ Zakres jest modułowy, co pozwala równolegle rozwijać mechanikę, elektronikę
 </p>
 
 *[Szczegóły Etapu 1](phases/Phase_1.md)*
+phases/Phase_1.md
 ---
 
 ## 5. Architektura techniczna (skrót)
