@@ -1,4 +1,4 @@
-# Impact.md — Społeczny i środowiskowy wymiar projektu **Food Printer**
+# Społeczny i środowiskowy wymiar projektu **Food Printer**
 
 > Niniejszy dokument podsumowuje, w jaki sposób Food Printer — od etapu MVP do przyszłej platformy „FoodOS” — odpowiada na kluczowe wyzwania zdrowotne, ekonomiczne, środowiskowe i społeczne.
 
