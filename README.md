@@ -5,11 +5,9 @@
 ## 0. DEMO VIDEO
 <p align="center">
   <a href="https://www.youtube.com/watch?v=EYWfXMCpYGI">
-     <img src="https://img.youtube.com/vi/EYWfXMCpYGI/0.jpg" alt="Prototype video">
+     <img src="https://img.youtube.com/vi/EYWfXMCpYGI/0.jpg" alt="Prototype video" width="100%">
   </a>
 </p>
-
-
 
 ## 1. Cel projektu i kontekst
 Projekt dotyczy opracowania domowego systemu druku żywności, łączącego automatyzację przygotowania posiłków z personalizacją żywieniową. Adresuje on podstawę piramidy Maslowa (odżywianie) i bieżące problemy rynku żywności: wysoki poziom przetworzenia, marnotrawstwo, nieprzejrzyste łańcuchy dostaw oraz wzrost chorób dietozależnych. Zakładany wpływ społeczny obejmuje łatwiejszy dostęp do zdrowych, spersonalizowanych posiłków oraz redukcję odpadów i zużycia energii.
