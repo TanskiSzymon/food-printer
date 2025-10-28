@@ -7,6 +7,11 @@ Projekt dotyczy opracowania domowego systemu druku żywności, łączącego auto
 
 **Teza projektu:** druk żywności w warunkach domowych może być technicznie wykonalny, ekonomicznie uzasadniony i korzystny społecznie – pod warunkiem zapewnienia powtarzalności procesu, higieny (CIP) i zgodności z normami bezpieczeństwa.
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=EYWfXMCpYGI">
+     <img src="https://img.youtube.com/vi/EYWfXMCpYGI/0.jpg" alt="Prototype video">
+  </a>
+</p>
 
 ## 2. Fazy i status
 
@@ -45,11 +50,6 @@ Zakres jest modułowy, co pozwala równolegle rozwijać mechanikę, elektronikę
 ---
 
 ## 4. Rezultaty Etapu 1 (PoC)
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=EYWfXMCpYGI">
-     <img src="https://img.youtube.com/vi/EYWfXMCpYGI/0.jpg" alt="Prototype video">
-  </a>
-</p>
 
 Etap 1 udowodnił, że druk naleśników o złożonych wzorach i kolorach jest możliwy technicznie i uzasadniony kosztowo. Powstał działający prototyp, którego kluczowe elementy to:
 
