@@ -34,7 +34,7 @@ I designed and built a custom CoreXY kinematic system using 30x30mm aluminum pro
 - Modular construction for easy maintenance
 - Clean zone separation from drive mechanisms
 
-![Cart Assembly](../images/cart.png)
+![Cart Assembly](/images/cart.png)
 
 The Z-axis features:
 1. Linear bearings for smooth vertical movement
@@ -46,7 +46,7 @@ The Z-axis features:
 
 The heart of the system - a custom-engineered peristaltic pump that I developed through extensive iteration and testing:
 
-![Pump Variants](../images/pumps.jpg)
+![Pump Variants](/images/pumps.jpg)
 
 **Key Innovation:** I created two variants and conducted comprehensive comparative testing:
 - **Variant A**: Standard peristaltic design
@@ -58,19 +58,19 @@ Through rigorous testing and Pugh matrix analysis, I demonstrated that Variant B
 - Maintained food-grade safety standards
 - Tool-less disassembly for cleaning (CIP < 10 minutes)
 
-![Pugh Matrix Analysis](../images/pugh_matrix.png)
+![Pugh Matrix Analysis](/images/pugh_matrix.png)
 
 ### Dosing Precision Results
 
 My engineering efforts resulted in measurable improvements:
 
-![Pump Performance Comparison](../images/pumps_results.png)
+![Pump Performance Comparison](/images/pumps_results.png)
 
 The pulsation compensation mechanism I designed ensures smooth, consistent material flow - critical for creating precise food patterns and maintaining portion control.
 
 ### Advanced Electronics Architecture
 
-![Electronics Diagram](../images/simple_electric.png)
+![Electronics Diagram](/images/simple_electric.png)
 
 I implemented a sophisticated control system featuring:
 - **BTT Octopus mainboard** with CoreXY configuration
